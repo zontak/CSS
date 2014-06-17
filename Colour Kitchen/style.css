@@ -1,0 +1,147 @@
+        body{
+            background-image: url("colorful_dots_on_black.jpg")
+        }
+        body aside nav ul li{
+            list-style-image: url("yes.png");
+        }
+        body aside {
+            background: rgba(255,255,255, .9);
+            width: 15%;
+            border-radius: 15px;
+            float: left;
+            margin: 5%;
+            position: fixed;
+
+        }
+        body aside nav header{
+            text-decoration: underline;
+            font-size: 20px;
+            padding-left: 15px;
+            background: none;
+            color: black;
+        }
+        body section article {
+            background: rgba(255,255,255, .9);
+            width: 60%;
+            float: right;
+            margin-right: 15%;
+            border-radius: 2%;
+            margin-top: 2%;
+
+        }
+        body header#webColors{
+            background: none;
+            background-color: red;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            color: white;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        #webSafeColors{
+            background: none;
+            background-color: orange;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+       body header#RGB{
+            background: none;
+            background-color: yellow;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        body header#RGBA{
+            background: none;
+            background-color: green;
+            color: white;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        body header#HSLHSV{
+            background: none;
+            background-color: blue;
+            color: white;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        body header#lorem{
+            background: none;
+            background-color: purple;
+            color: white;
+            margin: 1%;
+            border-radius: 10px;
+            font-size: 22px;
+            padding-left: 2%;
+            height: 30px;
+            width: 95%;
+        }
+        article span{
+            margin: 2%;
+        }
+        body section div{
+            margin: 2%;
+        }
+        article div::first-letter{
+            font-size: 50px;
+        }
+        article span:lang(la) {
+            color: blue;
+            font-style: italic;
+        }
+        article div::first-line{
+            font-style: italic;
+        }
+        article footer{
+            margin-left: 2%;
+            margin-bottom: 4%;
+        }
+        header{
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+            color: yellow;
+            border-radius: 10px;
+             background:
+            -moz-linear-gradient(left, rgba(255,0,0,1) 0%,
+              rgba(255,0,0,1) 33%, 
+             rgba(0,128,0,1) 33%, 
+             rgba(0,128,0,1) 69%, 
+             rgba(0,0,255,1) 69%,
+              rgba(0,0,255,1) 100%)
+        }
+        a[href="ColorKitchen.html#webColors"]:hover{
+            background-color: red;
+        }
+        a[href="ColorKitchen.html#webSafeColors"]:hover{
+            background-color: orange;
+        }
+        a[href="ColorKitchen.html#RGB"]:hover{
+            background-color: yellow;
+        }
+        a[href="ColorKitchen.html#RGBA"]:hover{
+            background-color: green;
+        }
+        a[href="ColorKitchen.html#HSLHSV"]:hover{
+            background-color: blue;
+        }
+        a[href="ColorKitchen.html#lorem"]:hover{
+            background-color: purple;
+        }
