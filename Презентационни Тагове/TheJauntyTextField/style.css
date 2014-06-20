@@ -1,0 +1,123 @@
+        .BigDiv {
+            border-style: dotted solid double dashed;
+            border-color: yellow green blue red;    
+            border-width: 9px 20px 13px 10px;
+            width: 939px;
+            height: 355px;
+            box-shadow: 29px 31px 10px #3F3F3F;
+            position: relative;
+        }
+        body .BigDiv h1{
+            font-size: 63px;
+            text-align: center;
+            font-weight: 400;
+            margin-top: 37px;
+            text-shadow: 20px 17px 7.5px #C9CACA;
+        }
+        .insideDiv1{
+            width: 829px;
+            height: 147px;
+            border: 2px solid red;
+            border-radius: 388px;
+            margin-left: 50px;
+        }
+        .insideDiv2{
+            width: 825px;
+            height: 143px;
+            border: 2px solid yellow;
+            border-radius: 388px;
+        }
+        .insideDiv3{
+            width: 821px;
+            height: 139px;
+            border: 2px solid blue;
+            border-radius: 388px;
+        }
+        .insideDiv4{
+            width: 817px;
+            height: 135px;
+            border: 2px solid green;
+            border-radius: 388px;
+        }
+        body div div div div div h2{
+            text-align: center;
+            font-size: 30px;
+            margin-top: 15px;
+            font-weight: 200;
+            text-shadow: 10px 10px 8px #C9CACA;
+        }
+        .notButtons{
+            display: inline-block;
+            width: 250px;
+            height: 30px;
+            text-align: center;
+            font-size: 22px;
+            border-style: outset;
+            background-color: #D8921A;
+            border-color: #F7A105 #AB6E00 #AB6E00 #F7A105;
+            position: relative;
+            left: 150px;
+        }
+        .firstDiv{
+            width: 210px;
+            height: 123px;
+            border-radius: 613px;
+            background: rgba(170,170,170, 0.5 ); 
+            position: relative;
+            top: -320px;
+            left: 865px;
+            
+        }
+        .firstDivInside{
+            position: relative;
+            width: 194px;
+            height: 109px;
+            background: rgba(170,170,170, 0.2 ); 
+            border-radius: 113px;
+            border: 3px dashed white;
+            margin-top: 7px;
+            position: relative;
+            top: 4.5px;
+            left: 4.5px;
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        .secondDiv{
+            width: 60px;
+            height: 64px;
+            background: rgba(170,170,170, 0.5 ); 
+            border-radius: 113px;
+            position: relative;
+            top: -350px;
+            left: 800px;
+        }
+        .secondDivInside{
+            width: 50px;
+            height: 54px;
+            background: rgba(170,170,170, 0.2 ); 
+            border: 3px dashed white;
+            border-radius: 113px;
+            position: relative;
+            top: 2.5px;
+            left: 2.5px;
+        }
+        .thirdDiv{
+            width: 46px;
+            height: 46px;
+            background: rgba(170,170,170, 0.5 ); 
+            border-radius: 113px;
+            position: relative;
+            top: -360px;
+            left: 690px
+        }
+        .thirdDivInside{
+            width: 36px;
+            height: 36px;
+            background: rgba(170,170,170, 0.2 ); 
+            border-radius: 113px;
+            border: 3px dashed white;
+            position: relative;
+            top: 2px;
+            left: 2px;
+        }
