@@ -15,32 +15,19 @@
             text-shadow: 20px 17px 7.5px #C9CACA;
         }
         .insideDiv1{
+			box-shadow:
+			0 0 0 2px #008000,
+			0 0 0 3px #4343ff,
+			0 0 0 5px #ffff00,
+			0 0 0 7px #4343ff;
             width: 829px;
             height: 147px;
             border: 2px solid red;
             border-radius: 388px;
             margin-left: 50px;
+			text-align: center;
         }
-        .insideDiv2{
-            width: 825px;
-            height: 143px;
-            border: 2px solid yellow;
-            border-radius: 388px;
-        }
-        .insideDiv3{
-            width: 821px;
-            height: 139px;
-            border: 2px solid blue;
-            border-radius: 388px;
-        }
-        .insideDiv4{
-            width: 817px;
-            height: 135px;
-            border: 2px solid green;
-            border-radius: 388px;
-        }
-        body div div div div div h2{
-            text-align: center;
+        body div div h2{
             font-size: 30px;
             margin-top: 15px;
             font-weight: 200;
@@ -56,7 +43,6 @@
             background-color: #D8921A;
             border-color: #F7A105 #AB6E00 #AB6E00 #F7A105;
             position: relative;
-            left: 150px;
         }
         .firstDiv{
             width: 210px;
