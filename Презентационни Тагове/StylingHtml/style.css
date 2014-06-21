@@ -1,0 +1,93 @@
+        .bigDiv{
+            width: 420px;
+            height: 710px;
+            background-image: url("formBackground.jpg");
+            background-repeat: no-repeat;
+            border-radius: 10px;
+        }
+        h4{
+            font-size: 15px;
+            color: #F8F1DF;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        h3{
+            font-size: 15px;
+            color: #F8F1DF;
+            padding-left: 20px;
+
+        }
+        .SmallFields{
+            border: 1px solid #C0CEDF;
+            background: rgba(192,206,223, .4);
+            width: 380px;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 5px;
+        }
+        body div div div{
+            color: black;
+            margin-left: 10px;
+            margin-top: 10px;
+            float: left;
+        }
+        .SmallFieldsText{
+            border-radius: 5px;
+            position: relative;
+            margin-top: 7px;
+            margin-left: 55px;
+            width: 200px;
+            height: 20px;
+        }
+        .BigFields{
+            border: 1px solid #C0CEDF;
+            background: rgba(192,206,223, .4);
+            width: 380px;
+            height: 100px;
+            margin-left: 20px;
+            border-radius: 5px;
+            float: left;
+        }
+        textarea{
+            width: 200px;
+            height: 90px;
+            float: left;
+            margin-left: 43px;
+            margin-top: 2.5px;
+            border-radius: 5px;
+        }
+        .MyClassClear{
+            clear:both;
+        }
+        .visacard {
+            background: url("../logos/visa.png") no-repeat;
+            padding-left: 30px;
+        }
+
+        .amexcard {
+            background: url("../logos/amex.png") no-repeat;
+            padding-left: 30px;
+        }
+
+        .mastercard {
+            background: url("../logos/mastercard.png") no-repeat;
+            padding-left: 30px;
+        }
+        .RadioClass{
+            border: 1px solid #C0CEDF;
+            background: rgba(192,206,223, .4);
+            width: 380px;
+            height: 60px;
+            margin-left: 20px;
+            border-radius: 5px;
+        }
+        .submitButton{
+            width: 100px;
+            height: 25px;
+            border-radius: 20px;
+            background-color: #04152F;
+            color: white;
+            border:none;
+            margin-top: 15px;
+            margin-left: 150px;
+        }

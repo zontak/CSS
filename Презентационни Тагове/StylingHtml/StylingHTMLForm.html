@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Third Question</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="bigDiv">
+        <h4>Step 1: Your details</h4>
+        <div class="SmallFields">
+            <div>Name</div>
+            <input class="SmallFieldsText" type="text" placeholder="First and Last name" required />
+        </div>
+        <div class="SmallFields">
+            <div>Email</div>
+            <input class="SmallFieldsText" type="text" placeholder="Example@domain.com" required />
+        </div>
+        <div class="SmallFields">
+            <div>Phone</div>
+            <input class="SmallFieldsText" type="text" placeholder="eg. +447500000000" required/>
+        </div>
+        <h3>Step 2: Delivery address</h3>
+        <div class="BigFields">
+            <div>Address</div>
+            <textarea></textarea>
+        </div>
+        <div class="MyClassClear"></div>
+        <div class="SmallFields">
+            <div>Post code</div>
+            <input class="SmallFieldsText" type="text" required style="margin-left: 35px;" />
+        </div>
+        <div class="SmallFields">
+            <div>Country</div>
+            <input class="SmallFieldsText" type="text" required style="margin-left: 42px;" />
+        </div>
+        <h3>Step 3: Card details</h3>
+        <div class="RadioClass">
+            <div>Card type</div>
+            <br />
+            <br />
+            <input type="radio" name="card"  required>
+            <label class="visacard">VISA</label>
+            <input type="radio" name="card" >
+            <label class="amexcard">AmEx</label>
+            <input type="radio" name="card" >
+            <label class="mastercard">MasterCard</label>
+        </div>
+        <div class="SmallFields">
+            <div>Card number</div>
+            <input class="SmallFieldsText" type="text" required style="margin-left: 18px;" />
+        </div>
+        <div class="SmallFields">
+            <div>Security code</div>
+            <input class="SmallFieldsText" type="text" required style="margin-left: 16px;" />
+        </div>
+        <div class="SmallFields">
+            <div>Name on card</div>
+            <input class="SmallFieldsText" type="text" required placeholder="exact name as on the card" style="margin-left: 14px;" />
+        </div>
+        <input type="submit" class="submitButton" value="BUY IT!"/>
+    </div>
+</body>
+</html>
