@@ -1,0 +1,78 @@
+        .Wrapper{
+            width: 1366px;
+            height: 130px;
+            background-color: #234465;
+            margin: 5px auto;
+        }
+        img{
+            margin: 18px 25px 0 26px;
+            width: 300px;
+            float: left;
+        }
+        .downMenu div{
+            float: left;
+            display: inline-block;
+            margin: 75px 10px 30px 10px;
+            font-size: 20px;
+            color: white;
+        }
+        .upMenu{
+            width: 700px;
+            height: 60px;
+            margin-left: 640px; 
+            float: left;
+            position: relative;
+            top: -120px;
+        }
+        .upMenu img{
+            width: 55px;
+            margin: 5px 20px 0 260px;
+        }
+        .upMenu div{
+            color: white;
+            font-size: 20px;
+            margin-top: 12px;
+            float: left;
+        }
+
+        .downMenu div:hover{
+            background-color: skyblue;
+        }
+
+        .upMenu input{
+            background-color: white;
+            font-size: 17px;
+            float: left;
+            width: 250px;
+            height: 30px;
+            margin-top: 10px;
+            border-radius: 10px 0 0 10px;
+        }
+        .upMenu button{
+            background-image: url("Capture.PNG");
+            width: 35px;
+            height: 35px;
+            margin-top: 11px;
+        }
+        .clearFix::after {
+            content: "";
+            display: block;
+            clear: both;
+            height: 0;
+        }
+        #aboutche{ 
+            width: 20%;
+            height: 100%;
+            background-color: #234465;
+            border-radius: 0 0 15px 15px;
+            position: relative;
+            top: 120px;
+            left: 430px;
+            text-align: center;
+            font-size: 20px;
+        }
+        #aboutche div, hr{
+            position: relative;
+            top: -180px;
+            color: white;
+        }
