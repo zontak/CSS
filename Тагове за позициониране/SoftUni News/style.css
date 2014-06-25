@@ -1,0 +1,137 @@
+        .wrapper {
+            width: 1650px;
+            height: 750px;
+            background-color: #EEEEEE;
+            float: left;
+        }
+        body div div{
+            color: #0A345D;
+            font-size: 30px;
+            margin: 50px 0 0 150px;
+        }
+        .firstDiv{
+            height: 510px;
+            width: 430px;
+            background-color: white;
+            float: left;
+            margin: 30px 30px 140px 140px;
+        }
+        .secondDiv{
+            float: left;
+            height: 510px;
+            width: 430px;
+            background-color: white;
+            position: relative;
+            top: -20px;
+            left: -150px;
+        }
+        .thirdDiv{
+            float: left;
+            height: 510px;
+            width: 430px;
+            background-color: white;
+            position: relative;
+            top: -470px;
+            left: 420px;
+        }
+        body div div h1{
+            font-size: 16.5px;
+            color: #0A345D;
+            float: left;
+            margin: 40px 0 0 40px;
+        }
+        body div .firstDiv span{
+            font-size: 14px;
+            color: #0A345D;
+            float: right;
+            margin: 40px 40px 10px 300px;
+        }
+        body div div div{
+            color: #969392;
+            float: left;
+            font-size: 18px;
+            margin: 0 40px 10px 40px;
+        }
+        .firstDiv hr{
+            width: 350px;
+            position: relative;
+            top: 160px;
+            left: -320px;
+        }
+        .firstDiv img{
+            width: 125px;
+            height: 130px;
+            position: relative;
+            top: 35px;
+            right: -150px;
+        }
+        .theDeadline{
+            margin: 50px 0 0 40px;
+        }
+        .firstDiv .secondHr{
+            position: relative;
+            top: 92px;
+            left: -310px;
+        }
+        .lastDiv{
+            font-size: 16px;
+            margin-top: 35px;
+        }
+        .lastDiv strong{
+            color:black;
+        }
+        .secondDiv img{
+            width: 350px;
+            margin: 30px 0 0 40px;
+        }
+        .secondDiv .theDeadline{
+            margin-top: 5px;
+        }
+        .secondDiv span{
+            font-size: 14px;
+            color: #0A345D;
+            float: right;
+            margin: 20px 40px 10px 300px;
+        }
+        .secondDiv hr{
+            position: relative;
+            left: -345px;
+            top: 160px;
+            width: 80%;
+        }
+        .secondDiv .secondHr{
+            position: relative;
+            left: -200px;
+            top: 50px;
+            width: 80%;
+        }
+        .secondDiv .lastDiv{
+            margin-top: 50px;
+        }
+        .thirdDiv hr{
+            position: relative;
+            left: -315px;
+            top: 160px;
+            width: 80%;
+        }
+        .thirdDiv .secondHr{
+            position: relative;
+            left: -310px;
+            top: 55px;
+            width: 80%;
+        }
+        li{
+            list-style-type: none;
+            width: 40px;
+            height: 40px;
+            background-color: #4CA0DB;
+            display: inline-block;
+            position: relative;
+            top: -440px;
+            left: -500px;
+            text-align: center;
+            color: white;
+        }
+        li:first-child{
+            background-color: #FF9C00;
+        }
