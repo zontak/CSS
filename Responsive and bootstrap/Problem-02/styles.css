@@ -1,0 +1,130 @@
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("background-flowers.jpg");
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0px auto;
+}
+
+    #wrapper:after {
+        clear: both;
+        content: "";
+        height: 0px;
+        display: block;
+    }
+
+    #wrapper > header {
+        width: 96%;
+        background: rgba(254, 254, 256, 0.7);
+        padding: 2% 2% 4% 2%;
+        border: 1px solid;
+        margin-bottom: 30px;
+    }
+
+heaader h1 {
+    display: inline-block;
+}
+
+#wrapper > header h1 img {
+    width: 20%;
+    float: left;
+    display: inline-block;
+}
+
+header h1 a {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+    header h1 a:after {
+        content: "";
+        height: 0px;
+        clear: both;
+    }
+
+    header h1 a span {
+        width: 78%;
+        float: right;
+        text-align: right;
+        color: black;
+    }
+
+header nav {
+    text-align: right;
+    position: relative;
+    top: 20px;
+}
+
+    header nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+        padding: 5px 15px 5px 15px;
+        background-color: #EB2A7B;
+        border: 1px solid black;
+        width: 10%;
+        text-align: center;
+    }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+aside {
+    width: 20%;
+    background: rgba(254, 254, 256, 0.7);
+    border: 1px solid black;
+
+}
+.left {
+    float: left;
+}
+
+, left img, span {
+    display: inline;
+}
+.right {
+    
+    float: right;
+}
+
+footer:before {
+        clear: both;
+        content: "";
+        display: block;
+        height: 0px;
+    }
+
+section {
+    margin-left: 20px;
+    width: 54%;
+    float: left;
+    background: rgba(254, 254, 256, 0.7);
+    padding: 20px;
+    display: flex;
+    border: 1px solid;
+    margin: auto;
+}
+
+    section img {
+        width: 24%;
+    }
+
+footer {
+    width: 100%;
+    background: rgba(254, 254, 256, 0.7);
+    border: 1px solid black;
+    float: left;
+    margin-top: 30px;
+}
+
+li {
+    list-style-type:none;
+}
