@@ -1,0 +1,58 @@
+.wrapper{
+    width: 470px;
+    margin: 0px auto;
+    font-family: Tahoma / helvetica / sans-serif;
+}
+
+.firstBook , .secondBook , .thirdBook{
+    width: 145px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+h1{
+    font-size: 11px;
+    cursor: pointer;
+}
+
+	h1:hover{
+	color: #9F9F9F;
+	}
+    
+    .secondBook h1 , .thirdBook h1{
+        padding-bottom: 15px;
+    }
+
+img{
+    cursor: pointer;
+}
+
+.author{
+    color: #696969;
+    font-size: 11px;
+}
+
+.h1 , .price , .author {
+    margin-bottom: 10px;
+    
+}
+
+.price{
+    font-size: 11px;
+    color: #8F0509;
+
+}
+
+.addToCard{
+    background: url("shopping-cart-active.png") #ECECEC no-repeat;
+    font-size: 11px;
+    padding-left: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    width: 65%;
+    border-radius: 7px;
+}
+
+    .addToCard:hover{
+        background-color: #E6E7E9;
+    }

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 780px) {
+    .mainHeader img{
+        width: 100%;
+    }
+
+    header nav ul li{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .mainHeader nav {
+        height: 120px;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .top-sidebar , .middle-sidebar , .bottom-sidebar{
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .top-sidebar{
+        margin-top: 3%;
+    }
+
+     body .mainHeader nav ul li a{
+        margin: 0px;
+        padding: 0;
+        width: 100%;
+    }
+
+     element.style {
+}
+    .mainHeader nav ul a:link, 
+    .mainHeader nav ul a:visited{
+        padding: 0;
+        margin: 0;
+    }
+    /* nemoga da namerq gadniq marginn :@ */
+	
+}

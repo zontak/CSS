@@ -1,0 +1,167 @@
+.wrapper{
+    font-family: Tahoma / sans-serif;
+    width: 920px;
+    margin: 0px auto;
+    position: relative;
+    top: -140px;
+    z-index: 1;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #EEEEEE;
+    padding-bottom: 40px;
+}
+
+    nav img{
+        width: 100px;
+        margin: 30px 0 0 30px;
+    }
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navDiv{
+    width: 700px;
+    margin-top: -60px;
+    margin-left: 160px;
+}
+
+    ul li{
+        display: inline-block;
+        font-size: 17px;
+        color: #818181;
+        margin-right: 80px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    ul li:first-child{
+        margin-left: 10px;
+    }
+
+    nav ul li:hover{
+        background-color: #CAD1D1;
+        color: black;
+    }
+
+    .wrapper nav ul li:hover:first-child{
+        color: #F99600;
+    }
+
+h1{
+    margin-left: 40px;
+}
+
+.leftDiv , .downLeftDiv{
+    width: 380px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: #585858;
+}
+
+.rightDiv{
+    display: inline-block;
+    width: 360px;
+    position: relative;
+    top: -205px;
+    left: 450px;
+    color: #585858;
+}
+
+footer{
+    height: 70px;
+    background-color: #EEEEEE;
+    padding-top: 40px;
+}
+
+section{
+    height: 300px;
+}
+
+.footerDiv{
+    margin-left: 40px;
+    width: 300px;
+}
+
+footer ul li:first-child{
+    background-image: url("facebook.png")
+}
+
+.google{
+    position: relative;
+    left: 750px;
+    top: -45px;
+    background: url("icons.png");
+    background-position: 0px -40px;
+    width: 30px;
+    height: 30px;
+}
+
+ .google:hover{
+    background-position: 30px -40px
+}
+
+ .face{
+    position: relative;
+    left: 780px;
+    top: -15px;
+    background: url("icons.png");
+    background-position: 70px 0px;
+    width: 30px;
+    height: 30px;
+}
+
+ 
+ .face:hover{
+    background-position: -40px 0px;
+}
+
+.twitter{
+    position: relative;
+    left: 810px;
+    top: -75px;
+    background: url("icons.png");
+    background-position: 0px 70px;
+    width: 30px;
+    height: 30px;
+}
+
+ 
+ .twitter:hover{
+    background-position: -40px 70px;
+}
+
+ .t{
+    position: relative;
+    left: 720px;
+    top: -105px;
+    background: url("icons.png");
+    background-position: 0px -120px;
+    width: 30px;
+    height: 30px;
+}
+
+ 
+ .t:hover{
+    background-position: 30px -120px;
+}
+
+ .headerr{
+     width: 100%;
+     background-color: #EEEEEE;
+     height: 140px;
+     position: relative;
+ }
+
+ .footerrr{
+     width: 100%;
+     background-color: #EEEEEE;
+     height: 140px;
+     position: relative;
+     top: -250px;
+ }
